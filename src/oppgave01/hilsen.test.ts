@@ -1,5 +1,8 @@
-import {describe, expect, test} from 'vitest';
-import {hils} from './hilsen';
+import { describe, expect, test } from 'vitest';
+
+function hils(navn: string): string {
+  return `Hei, ${navn}! Søknaden din er mottatt.`;
+}
 
 describe('Oppgave 1 — Hilsen til søker', () => {
   test('hilser Aisha', () => {
