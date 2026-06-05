@@ -3,6 +3,6 @@
  *
  * Gitt et fødselsår og et referanseår, returner alderen i år.
  */
- export function alderIAr(fodselsAar: number, referanseAar: number): number {
+ export function alder(fodselsAar: number, referanseAar: number): number {
   return referanseAar - fodselsAar;
 }
